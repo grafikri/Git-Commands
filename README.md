@@ -74,3 +74,5 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git name-rev <SHA>` | Shows where that commit come from |
+| `git branch -a --contains <commit>` | Shows which branch contains which commit(similar to above) |
